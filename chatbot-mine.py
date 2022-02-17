@@ -29,4 +29,4 @@ def main(input):
 
 
 # call the main function and give it an argument of hello 
-print(main("whats your name"))
+print(main("hello"))

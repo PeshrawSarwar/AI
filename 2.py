@@ -1,5 +1,6 @@
 QA = {
-    "hello":"hello how can i help you"
+    "hi":"hello how can i help you",
+    "choni":"bashi"
 }
 
 print('hello please type some thing')

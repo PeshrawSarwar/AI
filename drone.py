@@ -60,5 +60,5 @@ def shutdown():
         agent[i]-=1;
     return agent;
 
-shutdown()
+up()
 print(agent)
