@@ -22,6 +22,4 @@ def greedy(start, goal, graph, visited=[], queue=[]):
         p = queue[0];
         queue.remove(p)
         greedy(p[0], goal, graph, visited, queue)
-
-
 greedy('B', 'G', graph)

@@ -1,3 +1,6 @@
+from operator import ne
+
+
 graph={
     "A": ["B","C"],
     "B": ["D", "E"],
@@ -24,12 +27,7 @@ def bfs(graph, node, visited):
                queue.append(neighbor)
                if goal in visited:
                    break
-
-
-
-
-
-
+             
 print("Bredth First Search : ")
 bfs(graph, "A", visited)
         
